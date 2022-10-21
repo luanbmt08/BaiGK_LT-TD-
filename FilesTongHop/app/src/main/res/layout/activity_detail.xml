@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity"
+    android:orientation="vertical"
+
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/imgback"
+        android:layout_width="50px"
+        android:layout_height="60px"
+        android:backgroundTint="#D12828"
+        android:src="@drawable/icons8_back_26px_1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:id="@+id/back"
+        android:backgroundTint="#0F9BDA"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="50px"
+        android:textStyle="bold"/>
+    </LinearLayout>
+    <ImageView
+        android:gravity="center"
+        android:id="@+id/imgtb"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/img_ip11promax" />
+
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/txt_nametb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Name"
+        android:textColor="#009688"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/txt_motatb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="MoTa"
+        android:textAlignment="center"
+
+        android:textSize="20sp"
+         />
+
+
+</LinearLayout>
